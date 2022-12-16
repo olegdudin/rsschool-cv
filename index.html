@@ -4,17 +4,103 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>cv</title>
    <link rel="stylesheet" href="CSS/style.css">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+   <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-   Oleg Dudin
-   Contacts for communication
-   Phone: +375292443853
-   Mail: oleg.dudin.odv@gmail.com
-   I am married and have a daughter. graduated from the university with a degree in chemical engineering. I work at an oil refinery with the qualification of an operator of the central control panel.
-   I have no experience in programming, but would like to learn it. studied html, css, scss. studied the flex, grid technique. I do website development. I work in such programs as sublime text 3, vs code, webstorm.
-   was engaged in independent study in the field of front end development.
-   English language level A2.
+   <header class="header">
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main class="main-container">
+      <div class="container">
+         <div class="main-section">
+            <img class="myphoto" src="../rsschool-cv/assets/img/lX2GsisAmTc.jpg" alt="MyPhoto">
+            <div class="section-title">
+               <h1>oleg dudin</h1>
+               <p>junior front-end developer</p>
+            </div>
+         </div>
+         <div class="content-info">
+            <section class="section section-summaty">
+               <h2>Summary</h2>
+               <div class="summary" id="summary">
+                  <p class="mysummaty">I love programming. I think it's very interesting when you solve different problems. I study on my own. Studied html 5 and css 3. As well as flex and grid technologies. The scss preprocessor also studied. I'm starting basic learning of the java script programming language. I make websites at the simplest level. In the future I want to find my favorite job. I really want to become a programmer.</p>
+               </div>
+            </section>
+            <section class="section" id="skills">
+               <h2>Skills</h2>
+               <ul class="list">
+                  <li>Web-development: HTML5,CSS3</li>
+                  <li>Frameworks and libraries: Bootstrap</li>
+                  <li>Version control: GIT, github</li>
+                  <li>Graphics: Figma</li>
+               </ul>
+            </section>
+            <section class="section" id="education">
+               <h2>Education</h2>
+               <p>Polotsk State University</p>
+            </section>
+            <section class="section" id="english">
+               <h2>English</h2>
+               <p>English language level A2</p>
+            </section>
+            <section class="section section-contacts" id="contacts">
+               <h2>Contacts</h2>
+               <div class="contact">
+                  <img src="../rsschool-cv/assets/img/logo/location.png" alt="location" class="location">
+                  <p class="novopolotsk">Novopolotsk, Belarus</p>
+               </div>
+               <div class="contact">
+                  <img src="../rsschool-cv/assets/img/logo/email.png" alt="email" class="email">
+                  <p class="mygmail">oleg.dudin.odv@gmail.com</p>
+               </div>
+               <div class="contact">
+                  <img src="../rsschool-cv/assets/img/logo/discord.png" alt="discord" class="discord">
+                  <p class="mydiscord">Oleg_Dudin#5004</p>
+               </div>
+               <div class="contact">
+                  <img src="../rsschool-cv/assets/img/logo/github.png" alt="github" class="github">
+                  <p class="mygithub">olegdudin</p>
+               </div>
+               <div class="contact">
+                  <img src="../rsschool-cv/assets/img/logo/telegram.png" alt="telegram" class="telegram">
+                  <p class="mytelegram">Oleg Dudin</p>
+               </div>
+            </section>
+         </div>
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-footer">
+            <div class="footer-name">
+               <div class="footer-logo">
+                  <img class="github-logo" src="../rsschool-cv/assets/img/logo/github.png" alt="github">
+                  <div>2022</div>
+                  <div class="footer-link">
+                     <a href="https://github.com/olegdudin" target="_blank">olegdudin</a>
+                  </div>
+               </div>
+               <div class="github-link">
+                  <a href="https://rs.school/js/" target="_blank"><img src="../rsschool-cv/assets/svg/rs_school_js.svg" alt="rs_school" class="rs_school"></a>
+               </div>
+            </div>
+         </div>   
+      </div>
+   </footer>
 </body>
 </html>
