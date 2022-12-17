@@ -29,6 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  flex-wrap: wrap;
   padding: 0 20px;
   line-height: 50px;
   letter-spacing: 5px;
