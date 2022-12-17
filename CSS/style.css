@@ -80,6 +80,7 @@ body {
 .main-section {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
   color: rgb(81, 55, 37);
   margin: 15px 0;
